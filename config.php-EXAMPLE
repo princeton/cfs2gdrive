@@ -1,0 +1,30 @@
+<?php
+
+//============ CONFIGURATION VARIABLES ==================//
+
+// Full path to the directory from which the script runs
+$scriptDir = '/path/to/directory/cfs2gdrive
+
+// Where log files will be stored
+$logDir = $scriptDir . '/logs';
+
+// Google credentials for this application
+$googleClientId = 'GOOGLE-CLIENT-ID';
+$googleClientSecret = 'GOOGLE-CLIENT-SECRET';
+
+// Tokens for access to the Google Drive user's account
+$tokensFilename = $scriptDir . '/google_tokens.json';
+
+// The Google id of the folder into which the file should be saved.
+$googleFolderId = '1a2b3c4d5e6f7g8h';
+
+// Full path to folder where source files are located.  End with trailing slash /
+$sourceDir = $scriptDir . '/files2upload/';
+
+// Set the MimeType of the files that will be uploaded.  Only one type
+//  supported at the moment
+$fileMimeType = 'application/pdf';
+
+//=======================================================//
+
+?>

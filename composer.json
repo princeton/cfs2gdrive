@@ -1,0 +1,6 @@
+{
+    "require": {
+        "katzgrau/klogger": "1.0.*",
+        "google/apiclient": "1.0.*@beta"
+    }
+}
